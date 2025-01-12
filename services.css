@@ -1,0 +1,61 @@
+/* Estilo da seção "Meus Serviços" */
+.services {
+    background-color: var(--gray-100); /* Cor de fundo escuro */
+    color: var(--gray-600); /* Cor do texto */
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .services-header h2 {
+    font-size: 1.5rem;
+    color: var(--red); /* Cor para "Meus serviços" */
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .services-header p {
+    font-size: 1.2rem;
+    color: var(--gray-500);
+    margin-bottom: 2rem;
+  }
+  
+  /* Grid de cartões */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Cartão individual */
+  .service-card {
+    background-color: var(--gray-200); /* Fundo dos cartões */
+    border: 1px solid var(--gray-300); /* Borda sutil */
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-card img {
+    width: 40px; /* Tamanho do ícone */
+    margin-bottom: 1rem;
+  }
+  
+  .service-card h3 {
+    font-size: 1.2rem;
+    color: var(--gray-600);
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: var(--gray-500);
+  }
+  
+  /* Efeito de hover no cartão */
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }

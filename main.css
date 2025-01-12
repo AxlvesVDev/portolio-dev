@@ -1,0 +1,111 @@
+
+/* Main Section */
+
+
+
+.projects {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+
+    background-image: url(Assets/Background_Contacts.png);
+    
+    
+  }
+
+  
+  
+  .project-card {
+    background: #1e1e1e;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s, border-color 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    border-color: #fff;
+  }
+
+
+  /* Grid de Cards */
+  
+/* Novo estilo para o título e subtítulo */
+.work-intro {
+  
+  text-align: center;
+  margin: 2rem 0; /* Espaçamento entre o conteúdo */
+}
+
+.work-intro h2 {
+  font-size: 2rem; /* Tamanho do título */
+  color: var(--gray-600); /* Cor do título */
+  margin-bottom: 0.5rem; /* Espaço abaixo do título */
+}
+
+.work-intro p {
+  font-size: 1.2rem; /* Tamanho do subtítulo */
+  color: var(--gray-400); /* Cor do subtítulo */
+}
+
+
+
+
+
+.project-grid {
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+   
+  
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+  
+
+  
+ /* Cards */
+.project-card {
+    background-color: #1e1e1e;
+    border: 4px solid var(--border-color, #333);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  /* Hover Effect */
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-color: #fff;
+  }
+
+
+
+
+
+

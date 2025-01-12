@@ -1,0 +1,8 @@
+.container { 
+    display: flex;
+    box-sizing: border-box; /* Inclui o padding dentro da largura e altura total */
+    align-items: center; /* Alinha tudo horizontalmente no meio */
+    justify-content: center; /* Alinha tudo verticalmente no meio */
+    padding: 120px 343px 0; /* 120px em cima, 343px nas laterais e 0 embaixo */
+    height: 100vh; /* Ocupa toda a altura da tela */
+}
