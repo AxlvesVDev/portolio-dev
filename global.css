@@ -22,19 +22,18 @@
   --gray-600: #E2E4E9;
 
 
-  --font-primary: 'asap', sans-serif;
-  --title-lg: 800 56px/120% var (--font-primary);
-  --title-md: 800 24x/120% var (--font-primary);
-  --tile-sm: 800 16px/120% var (--font-primary);
+   /* Fontes */
+   --font-primary: 'Asap', sans-serif;
+   --font-secondary: 'Inconsolata', serif;
+   --font-maven: 'Maven Pro', sans-serif;
+ 
+   /* Estilos de Títulos */
+   --title-lg: 800 56px/120% var(--font-primary);
+   --title-md: 800 24px/120% var(--font-primary);
+   --title-sm: 800 16px/120% var(--font-primary);
+ 
+   /* Subtítulo */
+   --subtitle: 400 20px/120% var(--font-secondary);
+ }
 
-/* inconsolata*/
---font-secundary: 'inconsolata, serif'; 
---subtitle: 400 20px/120% var (--font-family-2); 
-
-  /* maven pro  */ 
-  --font-maven: "Maven pro", sans-serif;
-  
-  
-
-}
 
